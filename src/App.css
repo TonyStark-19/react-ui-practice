@@ -1,38 +1,273 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* container */
+
+.container {
+  height: 100vh;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* navbar */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #ffffff;
+  height: 64px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* head */
+
+.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+/* menu icon */
+
+.head .menu-icon {
+  font-size: 25px;
+}
+
+/* logo */
+
+.head img {
+  width: 175px;
+  height: 36px;
+}
+
+/* other links */
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.links .links-icon {
+  font-size: 25px;
+}
+
+.links .globe {
+  font-size: 30px;
+}
+
+/* below navbar */
+
+.below-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px;
+  background-color: #2a2d2c;
+  height: 52px;
+}
+
+.below-navbar h4 {
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: -3px;
+}
+
+.below-navbar h6 {
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.below-navbar h6 a {
+  color: #ffffff;
+}
+
+/* text content */
+
+.text-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 200px 16px 56px;
 }
 
-.App-link {
-  color: #61dafb;
+/* rating div */
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 0 0 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* stars */
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+}
+
+/* stars wrap */
+
+.stars .star-wrap {
+  background-color: #00b67a;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* star icon */
+
+.star-wrap .star-icon {
+  color: #ffffff;
+}
+
+/* div after rationg */
+
+.rating-o {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.rating-o p {
+  font-size: 13px;
+}
+
+.star-icon-o {
+  color: #00b67a;
+  font-size: 20px;
+}
+
+/* main heading */
+
+.main-heading h1 {
+  font-size: 48px;
+  margin: 0 0 14px;
+  text-transform: uppercase;
+}
+
+/* sub heading */
+
+.sub-heading h4 {
+  font-size: 16px;
+  margin: 0 0 24px;
+}
+
+/* content button */
+
+.content-btn {
+  padding: 6px 16px;
+  background-color: #98be42;
+  border: 0;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #ffffff;
+  height: 46px;
+  width: 210px;
+  border-radius: 5px;
+}
+
+/* adventure option */
+
+.adventures-options {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 0 32px;
+}
+
+/* adventure option box */
+
+.adventures-option-box {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 8px 0;
+}
+
+/* destination */
+
+.destination {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  padding: 0 32px;
+  margin: 20px 0 64px;
+}
+
+/* destination box */
+
+.destination-box1,
+.destination-box2,
+.destination-box3,
+.destination-box4,
+.destination-box5,
+.destination-box6,
+.destination-box7 {
+  width: 167px;
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+/* images for each destination */
+
+.destination-box1 {
+  background-image: url(/public/images/adventure-img/destination1.webp);
+}
+
+.destination-box2 {
+  background-image: url(/public/images/adventure-img/destination2.webp);
+}
+
+.destination-box3 {
+  background-image: url(/public/images/adventure-img/destination3.webp);
+}
+
+.destination-box4 {
+  background-image: url(/public/images/adventure-img/destination4.webp);
+}
+
+.destination-box5 {
+  background-image: url(/public/images/adventure-img/destination5.webp);
+}
+
+.destination-box6 {
+  background-image: url(/public/images/adventure-img/destination6.webp);
+}
+
+.destination-box7 {
+  background-image: url(/public/images/adventure-img/destination7.webp);
+}
+
+/* destination name */
+
+.destination-name {
+  padding: 16px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
 }
