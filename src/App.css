@@ -33,6 +33,7 @@
   flex-direction: row;
   align-items: center;
   gap: 15px;
+  cursor: pointer;
 }
 
 /* menu icon */
@@ -55,6 +56,7 @@
   flex-direction: row;
   align-items: center;
   gap: 20px;
+  cursor: pointer;
 }
 
 .links .links-icon {
@@ -82,9 +84,11 @@
   color: #ffffff;
   text-transform: uppercase;
   margin-bottom: -3px;
+  cursor: pointer;
 }
 
 .below-navbar h6 {
+  cursor: pointer;
   font-size: 12px;
   color: #ffffff;
   text-transform: uppercase;
@@ -111,6 +115,7 @@
   flex-direction: row;
   gap: 10px;
   margin: 0 0 24px;
+  cursor: pointer;
 }
 
 /* stars */
@@ -177,13 +182,20 @@
 .content-btn {
   padding: 6px 16px;
   background-color: #98be42;
-  border: 0;
+  border: 1px solid #98be42;
   font-size: 18px;
   text-transform: capitalize;
   color: #ffffff;
   height: 46px;
   width: 210px;
   border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.content-btn:hover {
+  background-color: #ffffff;
+  color: #98be42;
 }
 
 /* adventure option */
@@ -201,19 +213,35 @@
   font-size: 12px;
   text-transform: uppercase;
   padding: 8px 0;
+  cursor: pointer;
 }
 
-/* destination */
+/* destination and activities */
 
-.destination {
+.destination-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.destination,
+.activities {
   display: flex;
   flex-direction: row;
   gap: 8px;
   padding: 0 32px;
   margin: 20px 0 64px;
+  width: 100%;
+  max-width: 1400px;
+  overflow: hidden;
+  overflow-x: scroll;
 }
 
-/* destination box */
+.destination::-webkit-scrollbar,
+.activities::-webkit-scrollbar {
+  display: none;
+}
+
+/* destination and activity box */
 
 .destination-box1,
 .destination-box2,
@@ -221,13 +249,24 @@
 .destination-box4,
 .destination-box5,
 .destination-box6,
-.destination-box7 {
-  width: 167px;
-  height: 240px;
+.destination-box7,
+.activity-box1,
+.activity-box2,
+.activity-box3,
+.activity-box4,
+.activity-box5,
+.activity-box6,
+.activity-box7,
+.activity-box8,
+.activity-box9,
+.activity-box10 {
+  min-width: 167px;
+  min-height: 240px;
   background-size: cover;
   background-position: center;
   border-radius: 10px;
   position: relative;
+  cursor: pointer;
 }
 
 /* images for each destination */
@@ -260,9 +299,52 @@
   background-image: url(/public/images/adventure-img/destination7.webp);
 }
 
-/* destination name */
+/* images for each activity */
 
-.destination-name {
+.activity-box1 {
+  background-image: url(/public/images/adventure-img/activity1.webp);
+}
+
+.activity-box2 {
+  background-image: url(/public/images/adventure-img/activity2.webp);
+}
+
+.activity-box3 {
+  background-image: url(/public/images/adventure-img/activity3.webp);
+}
+
+.activity-box4 {
+  background-image: url(/public/images/adventure-img/activity4.webp);
+}
+
+.activity-box5 {
+  background-image: url(/public/images/adventure-img/activity5.webp);
+}
+
+.activity-box6 {
+  background-image: url(/public/images/adventure-img/activity6.webp);
+}
+
+.activity-box7 {
+  background-image: url(/public/images/adventure-img/activity7.webp);
+}
+
+.activity-box8 {
+  background-image: url(/public/images/adventure-img/activity8.webp);
+}
+
+.activity-box9 {
+  background-image: url(/public/images/adventure-img/activity9.webp);
+}
+
+.activity-box10 {
+  background-image: url(/public/images/adventure-img/activity10.webp);
+}
+
+/* destination and activity name */
+
+.destination-name,
+.activity-name {
   padding: 16px;
   font-size: 12px;
   text-transform: uppercase;
@@ -270,4 +352,201 @@
   font-weight: 600;
   position: absolute;
   bottom: 0;
+}
+
+/* level container */
+
+.level-container {
+  padding: 72px 0 40px;
+}
+
+/* level content */
+
+.level-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* level image */
+
+.level-img {
+  height: 200px;
+  width: 200px;
+}
+
+/* level text */
+
+.level-text {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.level-text h2 {
+  font-size: 32px;
+  margin: 0 0 24px;
+  text-transform: uppercase;
+  color: #000000de;
+}
+
+.level-text h4 {
+  font-size: 16px;
+  color: #000000de;
+  font-weight: 500;
+}
+
+/* level box wrap */
+
+.level-box-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 48px 0 0;
+  padding: 0 32px;
+}
+
+/* level boxes */
+
+.level-box1,
+.level-box2,
+.level-box3,
+.level-box4 {
+  width: 350px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: brightness(0.75);
+}
+
+/* images for each level box */
+
+.level-box1 {
+  background-image: url(/public/images/level-images/level1.webp);
+}
+
+.level-box2 {
+  background-image: url(/public/images/level-images/level2.webp);
+}
+
+.level-box3 {
+  background-image: url(/public/images/level-images/level3.webp);
+}
+
+.level-box4 {
+  background-image: url(/public/images/level-images/level4.webp);
+}
+
+/* level name */
+
+.level-name {
+  position: absolute;
+}
+
+.level-name h3 {
+  font-size: 32px;
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* review container */
+
+.review-container {
+  padding: 72px 0 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+/* rating */
+
+.rating {
+  display: flex;
+  flex-direction: column;
+}
+
+/* rating div 1 */
+
+.rating-a {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+
+.rating-a .rating-star-icon {
+  font-size: 25px;
+  color: #00b67a;
+}
+
+.rating-a p {
+  font-weight: 600;
+}
+
+/* rating div 2 */
+
+.rating-b {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+
+.rating-star-wrap {
+  background-color: #00b67a;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-star-wrap .star-icon {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+/* rating content */
+
+.rating-content {
+  width: 500px;
+}
+
+.rating-content h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 0 0 24px;
+  font-weight: 700;
+}
+
+/* rating button */
+
+.rating-btn {
+  padding: 5px 15px;
+  height: 46px;
+  margin: 24px 0 0;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.rating-btn:hover {
+  color: #98be42;
+  border: 1px solid #98be42;
 }
