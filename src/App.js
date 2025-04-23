@@ -13,6 +13,8 @@ export default function HomePage() {
       <Navbar />
       <BelowNavbar />
       <Content />
+      <Level />
+      <Reviews />
     </div>
   )
 }
@@ -113,6 +115,10 @@ function Content() {
 
         </div>
 
+      </div>
+
+      <div className='destination-wrap'>
+
         <div className='destination'>
 
           <div className='destination-box1'>
@@ -145,6 +151,152 @@ function Content() {
 
         </div>
 
+      </div>
+
+      <div className='activities'>
+
+        <div className='activity-box1'>
+          <div className='activity-name'>hiking</div>
+        </div>
+
+        <div className='activity-box2'>
+          <div className='activity-name'>multiactivity</div>
+        </div>
+
+        <div className='activity-box3'>
+          <div className='activity-name'>kayaking</div>
+        </div>
+
+        <div className='activity-box4'>
+          <div className='activity-name'>mountain climbing</div>
+        </div>
+
+        <div className='activity-box5'>
+          <div className='activity-name'>wildlife watching</div>
+        </div>
+
+        <div className='activity-box6'>
+          <div className='activity-name'>rafting</div>
+        </div>
+
+        <div className='activity-box7'>
+          <div className='activity-name'>cycling</div>
+        </div>
+
+        <div className='activity-box8'>
+          <div className='activity-name'>canyoning</div>
+        </div>
+
+        <div className='activity-box9'>
+          <div className='activity-name'>snorkelling</div>
+        </div>
+
+        <div className='activity-box10'>
+          <div className='activity-name'>yoga</div>
+        </div>
+
+      </div>
+
+    </div>
+  )
+}
+
+// level
+function Level() {
+  return (
+    <div className='level-container'>
+
+      <div className='level-content'>
+        <img className='level-img' src='/images/level-images/level-img.webp' alt='level-img' />
+
+        <div className='level-text'>
+          <h2>find the right level for you</h2>
+          <h4>Our adventures are tailored to meet a variety of fitness levels so you can pick the perfect match.</h4>
+        </div>
+      </div>
+
+      <div className='level-box-wrap'>
+
+        <div className='level-box1'>
+
+          <div className='level-name'>
+            <h3>easy</h3>
+          </div>
+
+        </div>
+
+        <div className='level-box2'>
+
+          <div className='level-name'>
+            <h3>moderate</h3>
+          </div>
+
+        </div>
+
+        <div className='level-box3'>
+
+          <div className='level-name'>
+            <h3>challenging</h3>
+          </div>
+
+        </div>
+
+        <div className='level-box4'>
+
+          <div className='level-name'>
+            <h3>tough</h3>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  )
+}
+
+// reviews
+function Reviews() {
+  return (
+    <div className='review-container'>
+
+      <div className='rating'>
+
+        <div className='rating-a'>
+          <IoIosStar className='rating-star-icon' />
+          <p>Trustpilot</p>
+        </div>
+
+        <div className='rating-b'>
+
+          <div className='rating-star-wrap'>
+            <IoIosStar className='star-icon' />
+          </div>
+          <div className='rating-star-wrap'>
+            <IoIosStar className='star-icon' />
+          </div>
+          <div className='rating-star-wrap'>
+            <IoIosStar className='star-icon' />
+          </div>
+          <div className='rating-star-wrap'>
+            <IoIosStar className='star-icon' />
+          </div>
+          <div className='rating-star-wrap'>
+            <IoIosStar className='star-icon' />
+          </div>
+
+        </div>
+
+        <div className='rating-c'>
+          <p>TrustScore <strong>4.8 1,136</strong> reviews</p>
+        </div>
+
+      </div>
+
+      <div className='rating-content'>
+        <h2>Tried & trusted</h2>
+        <p>Much Better Adventures is rated <strong>'Excellent'</strong> on Trustpilot with over 1000 verified trip reviews averaging 4.8/5.</p>
+        <button className='rating-btn'>See our Trustpilot Reviews</button>
       </div>
 
     </div>
