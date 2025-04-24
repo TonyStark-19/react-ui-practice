@@ -15,6 +15,7 @@ export default function HomePage() {
       <Content />
       <Level />
       <Reviews />
+      <Adventure />
     </div>
   )
 }
@@ -52,6 +53,13 @@ function BelowNavbar() {
 function Content() {
   return (
     <div className='content-container'>
+
+      <div className='video-background'>
+        <video autoPlay muted loop playsInline>
+          <source src='/video/adventure.mp4' type='video/mp4' />
+          Your browser does not support the video tag.
+        </video>
+      </div>
 
       <div className='text-content'>
 
@@ -101,7 +109,7 @@ function Content() {
 
         <div className='adventures-options'>
 
-          <div className='adventures-option-box'>
+          <div className='adventures-option-box' id='box1'>
             <h4>Destinations</h4>
           </div>
 
@@ -153,7 +161,7 @@ function Content() {
 
       </div>
 
-      <div className='activities'>
+      {/* <div className='activities'>
 
         <div className='activity-box1'>
           <div className='activity-name'>hiking</div>
@@ -195,7 +203,7 @@ function Content() {
           <div className='activity-name'>yoga</div>
         </div>
 
-      </div>
+      </div> */}
 
     </div>
   )
@@ -221,6 +229,13 @@ function Level() {
 
           <div className='level-name'>
             <h3>easy</h3>
+
+            <div className='level-icon'>
+              <div className='level-icon-div'></div>
+              <div className='level-icon-div'></div>
+              <div className='level-icon-div'></div>
+              <div className='level-icon-div'></div>
+            </div>
           </div>
 
         </div>
@@ -229,6 +244,13 @@ function Level() {
 
           <div className='level-name'>
             <h3>moderate</h3>
+
+            <div className='level-icon'>
+              <div className='level-icon-div'></div>
+              <div className='level-icon-div'></div>
+              <div className='level-icon-div'></div>
+              <div className='level-icon-div'></div>
+            </div>
           </div>
 
         </div>
@@ -237,6 +259,13 @@ function Level() {
 
           <div className='level-name'>
             <h3>challenging</h3>
+
+            <div className='level-icon'>
+              <div className='level-icon-div'></div>
+              <div className='level-icon-div'></div>
+              <div className='level-icon-div'></div>
+              <div className='level-icon-div'></div>
+            </div>
           </div>
 
         </div>
@@ -245,6 +274,13 @@ function Level() {
 
           <div className='level-name'>
             <h3>tough</h3>
+
+            <div className='level-icon'>
+              <div className='level-icon-div'></div>
+              <div className='level-icon-div'></div>
+              <div className='level-icon-div'></div>
+              <div className='level-icon-div'></div>
+            </div>
           </div>
 
         </div>
@@ -260,7 +296,7 @@ function Reviews() {
   return (
     <div className='review-container'>
 
-      <div className='rating'>
+      <div className='rating-div2'>
 
         <div className='rating-a'>
           <IoIosStar className='rating-star-icon' />
@@ -298,6 +334,33 @@ function Reviews() {
         <p>Much Better Adventures is rated <strong>'Excellent'</strong> on Trustpilot with over 1000 verified trip reviews averaging 4.8/5.</p>
         <button className='rating-btn'>See our Trustpilot Reviews</button>
       </div>
+
+    </div>
+  )
+}
+
+// adventures
+function Adventure() {
+  return (
+    <div className='adventures-container'>
+
+      <div className='adventures-deals'>
+
+        <div className='adventures-deal-box' id='box-1'>
+          <h4>popular</h4>
+        </div>
+
+        <div className='adventures-deal-box'>
+          <h4>just added</h4>
+        </div>
+
+        <div className='adventures-deal-box'>
+          <h4>last minute</h4>
+        </div>
+
+      </div>
+
+      <div className='adventure-deal-wrap'></div>
 
     </div>
   )
