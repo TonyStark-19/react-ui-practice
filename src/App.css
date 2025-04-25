@@ -151,6 +151,10 @@
   cursor: pointer;
 }
 
+.rating p {
+  font-weight: 600;
+}
+
 /* stars */
 
 .stars {
@@ -461,7 +465,7 @@
   justify-content: center;
   gap: 10px;
   margin: 48px 0 0;
-  padding: 0 32px;
+  padding: 0 62px;
 }
 
 /* level boxes */
@@ -663,7 +667,7 @@
 .adventures-container {
   display: flex;
   flex-direction: column;
-  padding: 0 0 32px;
+  padding: 0 0 32px 32px;
 }
 
 /* adventure deals */
@@ -692,4 +696,187 @@
   display: block;
   margin: 7px auto 0;
   border-radius: 8px;
+}
+
+/* adventure deal wrap */
+
+.adventure-deal-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 0 32px 32px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1600px;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.adventure-deal-wrap::-webkit-scrollbar {
+  display: none;
+}
+
+/* adventure deal boxes */
+
+.adventure-deal-box-div1,
+.adventure-deal-box-div2,
+.adventure-deal-box-div3,
+.adventure-deal-box-div4,
+.adventure-deal-box-div5,
+.adventure-deal-box-div6,
+.adventure-deal-box-div7,
+.adventure-deal-box-div8,
+.adventure-deal-box-div9 {
+  display: flex;
+  flex-direction: column;
+  min-width: 270px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* adventure deal image box */
+
+.adventure-deal-img-box {
+  background-size: cover;
+  background-position: center;
+  height: 338px;
+  width: 100%;
+  position: relative;
+  filter: brightness(0.9);
+}
+
+/* images for each adventure deal boxes */
+
+.adventure-deal-box-div1 .adventure-deal-img-box {
+  background-image: url(/public/images/deal-img/deal1.webp);
+}
+
+.adventure-deal-box-div2 .adventure-deal-img-box {
+  background-image: url(/public/images/deal-img/deal2.webp);
+}
+
+.adventure-deal-box-div3 .adventure-deal-img-box {
+  background-image: url(/public/images/deal-img/deal3.webp);
+}
+
+.adventure-deal-box-div4 .adventure-deal-img-box {
+  background-image: url(/public/images/deal-img/deal4.webp);
+}
+
+.adventure-deal-box-div5 .adventure-deal-img-box {
+  background-image: url(/public/images/deal-img/deal5.webp);
+}
+
+.adventure-deal-box-div6 .adventure-deal-img-box {
+  background-image: url(/public/images/deal-img/deal6.webp);
+}
+
+.adventure-deal-box-div7 .adventure-deal-img-box {
+  background-image: url(/public/images/deal-img/deal7.webp);
+}
+
+.adventure-deal-box-div8 .adventure-deal-img-box {
+  background-image: url(/public/images/deal-img/deal8.webp);
+}
+
+.adventure-deal-box-div9 .adventure-deal-img-box {
+  background-image: url(/public/images/deal-img/deal9.webp);
+}
+
+/* adventure deal level */
+
+.adventure-deal-level {
+  padding: 4px 8px;
+  background-color: #2a2d2ccc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 96px;
+  border-radius: 5px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+
+.adventure-deal-level p {
+  font-size: 11px;
+}
+
+/* adventure deal level icon */
+
+.adventure-deal-level-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+}
+
+.adventure-deal-level-icon-div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.adventure-deal-info-box {
+  padding: 0 16px 16px;
+  background-color: red;
+}
+
+/* adventure deal info 1 */
+
+.adventure-deal-info1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.adventure-deal-info1 .info1-icon {
+  color: #98be42;
+}
+
+.adventure-deal-info1 p {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+/* adventure deal info 2 */
+
+.adventure-deal-info2 {
+  margin: 8px 0 0;
+  color: #ffffff;
+}
+
+.adventure-deal-info2 h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* adventure deal info 3 */
+
+.adventure-deal-info3 {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 4px;
+  margin: 6px 0 0;
+  color: #ffffff;
+}
+
+.adventure-deal-info3 p {
+  font-size: 11px;
+}
+
+.adventure-deal-info3 h5 {
+  font-size: 18px;
+}
+
+/* collage container */
+
+.collage-container {
+  padding: 56px 32px;
+  background-color: #f4f4f4;
 }
