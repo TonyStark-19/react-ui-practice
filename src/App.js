@@ -5,6 +5,7 @@ import './App.css';
 import { FiMenu } from "react-icons/fi";
 import { IoIosGlobe, IoIosStar } from "react-icons/io";
 import { FaRegUser, FaSearch, FaStar } from "react-icons/fa";
+import { LuMountainSnow } from "react-icons/lu";
 
 // main page 
 export default function HomePage() {
@@ -17,6 +18,9 @@ export default function HomePage() {
       <Reviews />
       <Adventure />
       <FeatureCollage />
+      <Aim />
+      <Purpose />
+      <Footer />
     </div>
   )
 }
@@ -161,50 +165,6 @@ function Content() {
         </div>
 
       </div>
-
-      {/* <div className='activities'>
-
-        <div className='activity-box1'>
-          <div className='activity-name'>hiking</div>
-        </div>
-
-        <div className='activity-box2'>
-          <div className='activity-name'>multiactivity</div>
-        </div>
-
-        <div className='activity-box3'>
-          <div className='activity-name'>kayaking</div>
-        </div>
-
-        <div className='activity-box4'>
-          <div className='activity-name'>mountain climbing</div>
-        </div>
-
-        <div className='activity-box5'>
-          <div className='activity-name'>wildlife watching</div>
-        </div>
-
-        <div className='activity-box6'>
-          <div className='activity-name'>rafting</div>
-        </div>
-
-        <div className='activity-box7'>
-          <div className='activity-name'>cycling</div>
-        </div>
-
-        <div className='activity-box8'>
-          <div className='activity-name'>canyoning</div>
-        </div>
-
-        <div className='activity-box9'>
-          <div className='activity-name'>snorkelling</div>
-        </div>
-
-        <div className='activity-box10'>
-          <div className='activity-name'>yoga</div>
-        </div>
-
-      </div> */}
 
     </div>
   )
@@ -369,6 +329,7 @@ function Adventure() {
 
             <div className='adventure-deal-level'>
 
+              <LuMountainSnow className='deal-level-icon' />
               <p>Tough</p>
 
               <div className='adventure-deal-level-icon'>
@@ -409,6 +370,7 @@ function Adventure() {
 
             <div className='adventure-deal-level'>
 
+              <LuMountainSnow className='deal-level-icon' />
               <p>Easy</p>
 
               <div className='adventure-deal-level-icon'>
@@ -449,6 +411,7 @@ function Adventure() {
 
             <div className='adventure-deal-level'>
 
+              <LuMountainSnow className='deal-level-icon' />
               <p>Moderate</p>
 
               <div className='adventure-deal-level-icon'>
@@ -489,6 +452,7 @@ function Adventure() {
 
             <div className='adventure-deal-level'>
 
+              <LuMountainSnow className='deal-level-icon' />
               <p>Challenging</p>
 
               <div className='adventure-deal-level-icon'>
@@ -529,6 +493,7 @@ function Adventure() {
 
             <div className='adventure-deal-level'>
 
+              <LuMountainSnow className='deal-level-icon' />
               <p>Moderate</p>
 
               <div className='adventure-deal-level-icon'>
@@ -564,6 +529,7 @@ function Adventure() {
 
             <div className='adventure-deal-level'>
 
+              <LuMountainSnow className='deal-level-icon' />
               <p>Challenging</p>
 
               <div className='adventure-deal-level-icon'>
@@ -604,6 +570,7 @@ function Adventure() {
 
             <div className='adventure-deal-level'>
 
+              <LuMountainSnow className='deal-level-icon' />
               <p>Moderate</p>
 
               <div className='adventure-deal-level-icon'>
@@ -644,6 +611,7 @@ function Adventure() {
 
             <div className='adventure-deal-level'>
 
+              <LuMountainSnow className='deal-level-icon' />
               <p>Moderate</p>
 
               <div className='adventure-deal-level-icon'>
@@ -684,6 +652,7 @@ function Adventure() {
 
             <div className='adventure-deal-level'>
 
+              <LuMountainSnow className='deal-level-icon' />
               <p>Challenging</p>
 
               <div className='adventure-deal-level-icon'>
@@ -729,15 +698,74 @@ function FeatureCollage() {
   return (
     <div className='collage-container'>
 
-      <div className='collage-1'></div>
+      <div className='collage-1'>
+        <h4>summer 2025</h4>
+        <h2>flash sale</h2>
+        <h2>now on</h2>
+        <p>Up to 15% off select summer 2025 departures</p>
+        <button className='sale-btn'>See the Sale</button>
+      </div>
 
       <div className='collage-2'>
-        <div className='collage-2-img-1'></div>
-        <div className='collage-2-img-2'></div>
-        <div className='collage-2-img-3'></div>
-        <div className='collage-2-img-4'></div>
+
+        <div className='collage-2-img-1'>
+          <h2>features</h2>
+        </div>
+        <div className='collage-2-img-2'>
+          <h2>guides</h2>
+        </div>
+        <div className='collage-2-img-3'>
+          <h2>packing & prep</h2>
+        </div>
+        <div className='collage-2-img-4'>
+          <h2>community</h2>
+        </div>
+
       </div>
 
     </div>
+  )
+}
+
+// aim
+function Aim() {
+  return (
+    <div className='aim-container'>
+
+      <div className='aim-box'>
+        <h4>Explore places you couldn't yourself</h4>
+        <p>All trips are led by certified expert guides, unlocking life experiences in places most never see.</p>
+      </div>
+      <div className='aim-box'>
+        <h4>Go with the outdoor specialists</h4>
+        <p>Choose from 200+ award-winning active outdoor adventures in wild places, whatever your mood.</p>
+      </div>
+      <div className='aim-box'>
+        <h4>Join a small like-minded group</h4>
+        <p>75% join our trips as solo travellers, with most in their 30s-50s. 95% give our group dynamic 5 stars.</p>
+      </div>
+      <div className='aim-box'>
+        <h4>Hassle-free from start to finish</h4>
+        <p>We've sorted the logistics, so you can just rock up and have a blast in the wild.</p>
+      </div>
+
+    </div>
+  )
+}
+
+// purpose
+function Purpose() {
+  return (
+    <div className='purpose-container'>
+      <h5>Our Purpose</h5>
+      <p>To protect our world's wild places, one adventure at a time.</p>
+    </div>
+  )
+}
+
+// footer
+function Footer() {
+  return (
+    <div className='footer-container'></div>
   )
 }
