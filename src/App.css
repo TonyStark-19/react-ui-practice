@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* container */
@@ -152,6 +153,7 @@
 }
 
 .rating p {
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -272,7 +274,7 @@
   border-radius: 8px;
 }
 
-/* destination and activities */
+/* destination */
 
 .destination-wrap {
   display: flex;
@@ -280,8 +282,7 @@
   padding: 0 0 0 30px;
 }
 
-.destination,
-.activities {
+.destination {
   display: flex;
   flex-direction: row;
   gap: 8px;
@@ -293,12 +294,11 @@
   overflow-x: scroll;
 }
 
-.destination::-webkit-scrollbar,
-.activities::-webkit-scrollbar {
+.destination::-webkit-scrollbar {
   display: none;
 }
 
-/* destination and activity box */
+/* destination box */
 
 .destination-box1,
 .destination-box2,
@@ -306,17 +306,7 @@
 .destination-box4,
 .destination-box5,
 .destination-box6,
-.destination-box7,
-.activity-box1,
-.activity-box2,
-.activity-box3,
-.activity-box4,
-.activity-box5,
-.activity-box6,
-.activity-box7,
-.activity-box8,
-.activity-box9,
-.activity-box10 {
+.destination-box7 {
   min-width: 167px;
   min-height: 240px;
   background-size: cover;
@@ -357,52 +347,9 @@
   background-image: url(/public/images/adventure-img/destination7.webp);
 }
 
-/* images for each activity */
+/* destination name */
 
-.activity-box1 {
-  background-image: url(/public/images/adventure-img/activity1.webp);
-}
-
-.activity-box2 {
-  background-image: url(/public/images/adventure-img/activity2.webp);
-}
-
-.activity-box3 {
-  background-image: url(/public/images/adventure-img/activity3.webp);
-}
-
-.activity-box4 {
-  background-image: url(/public/images/adventure-img/activity4.webp);
-}
-
-.activity-box5 {
-  background-image: url(/public/images/adventure-img/activity5.webp);
-}
-
-.activity-box6 {
-  background-image: url(/public/images/adventure-img/activity6.webp);
-}
-
-.activity-box7 {
-  background-image: url(/public/images/adventure-img/activity7.webp);
-}
-
-.activity-box8 {
-  background-image: url(/public/images/adventure-img/activity8.webp);
-}
-
-.activity-box9 {
-  background-image: url(/public/images/adventure-img/activity9.webp);
-}
-
-.activity-box10 {
-  background-image: url(/public/images/adventure-img/activity10.webp);
-}
-
-/* destination and activity name */
-
-.destination-name,
-.activity-name {
+.destination-name {
   padding: 16px;
   font-size: 12px;
   text-transform: uppercase;
@@ -667,7 +614,7 @@
 .adventures-container {
   display: flex;
   flex-direction: column;
-  padding: 0 0 32px 32px;
+  padding: 0 0 32px;
 }
 
 /* adventure deals */
@@ -676,7 +623,7 @@
   display: flex;
   flex-direction: row;
   gap: 30px;
-  padding: 32px 32px 0;
+  padding: 32px 32px 0 62px;
 }
 
 /* adventure deal box */
@@ -704,7 +651,7 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
-  padding: 0 32px 32px;
+  padding: 0 32px 32px 62px;
   margin-top: 20px;
   width: 100%;
   max-width: 1600px;
@@ -732,6 +679,7 @@
   min-width: 270px;
   border-radius: 8px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 /* adventure deal image box */
@@ -792,14 +740,21 @@
   flex-direction: row;
   align-items: center;
   min-width: 96px;
+  gap: 5px;
   border-radius: 5px;
   position: absolute;
   left: 16px;
   top: 16px;
 }
 
+.deal-level-icon {
+  color: #98be42;
+  font-size: 14px;
+}
+
 .adventure-deal-level p {
   font-size: 11px;
+  color: #ffffff;
 }
 
 /* adventure deal level icon */
@@ -810,16 +765,63 @@
   gap: 1px;
 }
 
+.adventure-deal-box-div1 .adventure-deal-level-icon-div:nth-child(1),
+.adventure-deal-box-div1 .adventure-deal-level-icon-div:nth-child(2),
+.adventure-deal-box-div2 .adventure-deal-level-icon-div:nth-child(1),
+.adventure-deal-box-div3 .adventure-deal-level-icon-div:nth-child(1),
+.adventure-deal-box-div3 .adventure-deal-level-icon-div:nth-child(2),
+.adventure-deal-box-div4 .adventure-deal-level-icon-div:nth-child(1),
+.adventure-deal-box-div4 .adventure-deal-level-icon-div:nth-child(2),
+.adventure-deal-box-div5 .adventure-deal-level-icon-div:nth-child(1),
+.adventure-deal-box-div5 .adventure-deal-level-icon-div:nth-child(2),
+.adventure-deal-box-div6 .adventure-deal-level-icon-div:nth-child(1),
+.adventure-deal-box-div6 .adventure-deal-level-icon-div:nth-child(2),
+.adventure-deal-box-div7 .adventure-deal-level-icon-div:nth-child(1),
+.adventure-deal-box-div7 .adventure-deal-level-icon-div:nth-child(2),
+.adventure-deal-box-div8 .adventure-deal-level-icon-div:nth-child(1),
+.adventure-deal-box-div8 .adventure-deal-level-icon-div:nth-child(2),
+.adventure-deal-box-div9 .adventure-deal-level-icon-div:nth-child(1),
+.adventure-deal-box-div9 .adventure-deal-level-icon-div:nth-child(2) {
+  background-color: #98be42;
+}
+
+.adventure-deal-box-div1 .adventure-deal-level-icon-div:nth-child(3),
+.adventure-deal-box-div4 .adventure-deal-level-icon-div:nth-child(3),
+.adventure-deal-box-div6 .adventure-deal-level-icon-div:nth-child(3),
+.adventure-deal-box-div9 .adventure-deal-level-icon-div:nth-child(3) {
+  background-color: #f7dd43;
+}
+
+.adventure-deal-box-div1 .adventure-deal-level-icon-div:nth-child(4) {
+  background-color: #e76135;
+}
+
+.adventure-deal-box-div2 .adventure-deal-level-icon-div:nth-child(2),
+.adventure-deal-box-div2 .adventure-deal-level-icon-div:nth-child(3),
+.adventure-deal-box-div2 .adventure-deal-level-icon-div:nth-child(4),
+.adventure-deal-box-div3 .adventure-deal-level-icon-div:nth-child(3),
+.adventure-deal-box-div3 .adventure-deal-level-icon-div:nth-child(4),
+.adventure-deal-box-div4 .adventure-deal-level-icon-div:nth-child(4),
+.adventure-deal-box-div5 .adventure-deal-level-icon-div:nth-child(3),
+.adventure-deal-box-div5 .adventure-deal-level-icon-div:nth-child(4),
+.adventure-deal-box-div6 .adventure-deal-level-icon-div:nth-child(4),
+.adventure-deal-box-div7 .adventure-deal-level-icon-div:nth-child(3),
+.adventure-deal-box-div7 .adventure-deal-level-icon-div:nth-child(4),
+.adventure-deal-box-div8 .adventure-deal-level-icon-div:nth-child(3),
+.adventure-deal-box-div8 .adventure-deal-level-icon-div:nth-child(4),
+.adventure-deal-box-div9 .adventure-deal-level-icon-div:nth-child(4) {
+  background-color: #c4b8ad;
+}
+
 .adventure-deal-level-icon-div {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  background-color: red;
 }
 
 .adventure-deal-info-box {
   padding: 0 16px 16px;
-  background-color: red;
+  background-color: #2a2d2c;
 }
 
 /* adventure deal info 1 */
@@ -877,6 +879,199 @@
 /* collage container */
 
 .collage-container {
-  padding: 56px 32px;
+  padding: 56px 62px;
   background-color: #f4f4f4;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* collage 1  */
+
+.collage-1 {
+  background-image: url(/public/images/collage/collage1.webp);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 720px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  filter: brightness(0.85);
+}
+
+.collage-1 h4 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0 0 16px;
+}
+
+.collage-1 h2 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 48px;
+  margin-bottom: -13px;
+  font-weight: 800;
+}
+
+.collage-1 p {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 20px 0 24px;
+}
+
+.collage-1 .sale-btn {
+  height: 46px;
+  padding: 6px 8px;
+  width: 90px;
+  background-color: #ffffff;
+  color: #2a2d2c;
+  font-size: 12px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.collage-1 .sale-btn:hover {
+  color: #98be42;
+}
+
+/* collage 2 */
+
+.collage-2 {
+  width: 50%;
+  height: 720px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 17px;
+}
+
+/* colage 2 image boxes */
+
+.collage-2-img-1,
+.collage-2-img-2,
+.collage-2-img-3,
+.collage-2-img-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.collage-2 .collage-2-img-1 {
+  background-image: url(/public/images/collage/collage2.webp);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 10px;
+  filter: brightness(0.8);
+}
+
+.collage-2 .collage-2-img-2 {
+  background-image: url(/public/images/collage/collage3.webp);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 10px;
+  filter: brightness(0.8);
+}
+
+.collage-2 .collage-2-img-3 {
+  background-image: url(/public/images/collage/collage4.webp);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 10px;
+  filter: brightness(0.8);
+}
+
+.collage-2 .collage-2-img-4 {
+  background-image: url(/public/images/collage/collage5.webp);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 10px;
+  filter: brightness(0.8);
+}
+
+.collage-2 h2 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/* aim container */
+
+.aim-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0 62px 40px;
+  gap: 50px;
+}
+
+/* aim box */
+
+.aim-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 420px;
+  padding: 32px 0 0 32px;
+}
+
+.aim-box h4 {
+  font-size: 16px;
+  color: #000000de;
+  margin: 0 0 6px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.aim-box p {
+  font-size: 16px;
+  color: #000000de;
+  margin: 0 0 16px;
+  text-align: center;
+}
+
+/* purpose container */
+
+.purpose-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  background-color: #dde0df;
+}
+
+.purpose-container h5 {
+  font-size: 12px;
+  color: #000000de;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.purpose-container p {
+  font-size: 24px;
+  color: #000000de;
+}
+
+/* footer container */
+
+.footer-container {
+  padding: 80px 24px 48px;
+  background-color: #2a2d2c;
 }
