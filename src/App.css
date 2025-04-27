@@ -8,6 +8,13 @@
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
 /* container */
 
 .container {
@@ -1097,7 +1104,7 @@
 .footer-div1 {
   display: flex;
   flex-direction: column;
-  min-width: 460px;
+  width: 460px;
 }
 
 .footer-div1 h4 {
@@ -1119,6 +1126,7 @@
   flex-direction: row;
   margin: 24px 0 0;
   gap: 10px;
+  cursor: pointer;
 }
 
 .footer-div1-images .img1 {
@@ -1189,6 +1197,11 @@
   background-color: transparent;
   border: 2px solid #ffffff;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.list-btn:hover {
+  background-color: #282b2a;
 }
 
 /* footer div3 */
@@ -1236,6 +1249,7 @@
   color: #98be42;
   text-decoration: underline;
   margin: 8px 0 0;
+  cursor: pointer;
 }
 
 /* footer div4 */
@@ -1243,6 +1257,8 @@
 .footer-div4 {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer-div4-1 {
@@ -1255,9 +1271,676 @@
 .footer-div4-1 .img5 {
   width: 163px;
   height: 32px;
+  cursor: pointer;
 }
 
 .footer-div4-1 p {
   font-size: 12px;
   color: #8e8e8e;
+  text-align: center;
+}
+
+/* footer div4 2 */
+
+.footer-div4-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+/* footer div4 2 icon */
+
+.footer-div4-2-icon {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.footer-div4-2-icon:hover {
+  background-color: #282b2a;
+}
+
+.footer-div4-2-icon .div4-2-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* responsiveness */
+
+@media (max-width: 1250px) {
+
+  /* home section */
+
+  .destination-wrap,
+  .adventures {
+    padding: 0;
+  }
+
+  /* level section */
+
+  .level-box-wrap {
+    padding: 0 32px;
+  }
+
+  .level-box1,
+  .level-box2,
+  .level-box3,
+  .level-box4 {
+    height: 300px;
+    width: 300px;
+  }
+
+  /* adventure section */
+
+  .adventures-deals {
+    padding: 32px 32px 0;
+  }
+
+  .adventure-deal-wrap {
+    padding: 0 32px 32px;
+  }
+
+  /* collage section */
+
+  .collage-container {
+    padding: 56px 32px;
+  }
+
+  .collage-1,
+  .collage-2 {
+    height: 600px;
+  }
+
+  .collage-2 .collage-2-img-1,
+  .collage-2 .collage-2-img-2,
+  .collage-2 .collage-2-img-3,
+  .collage-2 .collage-2-img-4 {
+    height: 290px;
+    width: 270px;
+  }
+
+  .collage-2 h2 {
+    width: 240px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1150px) {
+
+  /* collage section */
+
+  .collage-container {
+    padding: 56px 32px;
+  }
+
+  .collage-1,
+  .collage-2 {
+    height: 600px;
+  }
+
+  .collage-2 .collage-2-img-1,
+  .collage-2 .collage-2-img-2,
+  .collage-2 .collage-2-img-3,
+  .collage-2 .collage-2-img-4 {
+    height: 290px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 1100px) {
+
+  /* level section */
+
+  .level-box-wrap {
+    flex-wrap: wrap;
+  }
+
+  /* collage section */
+
+  .collage-container {
+    padding: 40px 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .collage-1,
+  .collage-2 {
+    width: 700px;
+    height: 600px;
+  }
+
+  .collage-2 .collage-2-img-1,
+  .collage-2 .collage-2-img-2,
+  .collage-2 .collage-2-img-3,
+  .collage-2 .collage-2-img-4 {
+    height: 300px;
+    width: 340px;
+  }
+
+  /* footer section */
+
+  .footer-wrap {
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+  }
+
+  .footer-div3 {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  /* level section */
+
+  .level-box1,
+  .level-box2,
+  .level-box3,
+  .level-box4 {
+    height: 350px;
+    width: 350px;
+  }
+
+  /* aim section */
+
+  .aim-container {
+    gap: 10px;
+  }
+
+  /* footer section */
+
+  .footer-div4,
+  .footer-div4-1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+
+  /* aim section */
+
+  .aim-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 20px 40px;
+  }
+
+  .aim-box {
+    width: 350px;
+  }
+}
+
+@media (max-width: 800px) {
+
+  /* level section */
+
+  .level-box1,
+  .level-box2,
+  .level-box3,
+  .level-box4 {
+    height: 300px;
+    width: 300px;
+  }
+
+  /* review section */
+
+  .review-container {
+    flex-direction: column;
+  }
+
+  .rating-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rating-content p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 750px) {
+
+  /* level section */
+
+  .level-container {
+    padding: 40px 0;
+  }
+
+  .level-content {
+    flex-direction: column;
+  }
+
+  .level-img {
+    height: 180px;
+    width: 180px;
+  }
+
+  .level-text h2 {
+    margin: 0 0 10px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .level-text h4 {
+    text-align: center;
+  }
+
+  /* collage section */
+
+  .collage-container {
+    padding: 40px 20px;
+  }
+
+  .collage-1,
+  .collage-2 {
+    width: 600px;
+    height: 500px;
+  }
+
+  .collage-2 .collage-2-img-1,
+  .collage-2 .collage-2-img-2,
+  .collage-2 .collage-2-img-3,
+  .collage-2 .collage-2-img-4 {
+    height: 240px;
+    width: 290px;
+  }
+
+  /* aim section */
+
+  .aim-container {
+    padding: 0 20px 30px;
+  }
+
+  .aim-box {
+    width: 300px;
+  }
+
+  /* purpose section */
+
+  .purpose-container p {
+    width: 600px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+
+  /* level section */
+
+  .level-box1,
+  .level-box2,
+  .level-box3,
+  .level-box4 {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 650px) {
+
+  /* collage section */
+
+  .collage-1,
+  .collage-2 {
+    width: 500px;
+    height: 400px;
+  }
+
+  .collage-2 .collage-2-img-1,
+  .collage-2 .collage-2-img-2,
+  .collage-2 .collage-2-img-3,
+  .collage-2 .collage-2-img-4 {
+    height: 190px;
+    width: 240px;
+  }
+
+  /* aim section */
+
+  .aim-box {
+    width: 250px;
+  }
+
+  /* purpose section */
+
+  .purpose-container {
+    height: 150px;
+  }
+
+  .purpose-container p {
+    font-size: 22px;
+    line-height: 1.2;
+    width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  /* footer section */
+
+  .footer-div2 {
+    flex-direction: column;
+  }
+
+  .footer-div1,
+  .footer-div3 {
+    width: 400px;
+  }
+}
+
+@media (max-width: 550px) {
+
+  /* level section */
+
+  .level-text {
+    width: 430px;
+  }
+
+  /* review section */
+
+  .rating-content {
+    width: 430px;
+  }
+
+  /* collage section */
+
+  .collage-1 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .collage-1 h4 {
+    font-size: 17px;
+    margin: 0 0 10px;
+  }
+
+  .collage-1 h2 {
+    font-size: 40px;
+  }
+
+  .collage-1 p {
+    width: 350px;
+    text-align: center;
+  }
+
+  .collage-1 .sale-btn {
+    height: 40px;
+    padding: 5px;
+  }
+
+  .collage-2 {
+    grid-template-columns: 1fr;
+    height: 850px;
+    width: 400px;
+  }
+
+  .collage-2 .collage-2-img-1,
+  .collage-2 .collage-2-img-2,
+  .collage-2 .collage-2-img-3,
+  .collage-2 .collage-2-img-4 {
+    height: 200px;
+    width: 100%;
+  }
+
+  /* aim section */
+
+  .aim-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aim-box {
+    width: 400px;
+    padding: 0;
+  }
+
+  /* footer section */
+
+  .footer-container {
+    padding: 30px 20px;
+  }
+
+  .footer-div1,
+  .footer-div3 {
+    width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+
+  /* navbar */
+
+  .navbar {
+    padding: 6px 20px;
+  }
+
+  .head {
+    gap: 8px;
+  }
+
+  .links {
+    gap: 10px;
+  }
+
+  .head img {
+    width: 150px;
+    height: 34px;
+  }
+
+  /* home section */
+
+  .text-content {
+    padding: 200px 5px 56px;
+  }
+
+  .rating {
+    margin: 0 0 15px;
+  }
+
+  .rating p {
+    font-size: 16px;
+  }
+
+  .rating-o p {
+    font-size: 12px;
+  }
+
+  .main-heading h1 {
+    font-size: 40px;
+    margin: 0 0 5px;
+  }
+
+  .sub-heading h4 {
+    font-size: 15px;
+    margin: 0 0 20px;
+    width: 350px;
+    text-align: center;
+  }
+
+  .content-btn {
+    height: 42px;
+    width: 180px;
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  /* level section */
+
+  .level-text {
+    width: 330px;
+  }
+
+  /* review section */
+
+  .rating-content {
+    width: 330px;
+  }
+
+  /* collage section */
+
+  .collage-1 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .collage-1 h4 {
+    font-size: 16px;
+    margin: 0 0 10px;
+  }
+
+  .collage-1 h2 {
+    font-size: 30px;
+  }
+
+  .collage-1 p {
+    width: 260px;
+    text-align: center;
+  }
+
+  .collage-1 .sale-btn {
+    height: 35px;
+  }
+
+  .collage-2 {
+    height: 850px;
+    width: 300px;
+  }
+
+  .collage-2 .collage-2-img-1,
+  .collage-2 .collage-2-img-2,
+  .collage-2 .collage-2-img-3,
+  .collage-2 .collage-2-img-4 {
+    height: 200px;
+    width: 100%;
+  }
+
+  /* aim section */
+
+  .aim-box {
+    width: 300px;
+  }
+
+  /* purpose section */
+
+  .purpose-container p {
+    font-size: 20px;
+    width: 300px;
+  }
+
+  /* footer section */
+
+  .footer-div1,
+  .footer-div3 {
+    width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  /* home section */
+
+  .adventures-options {
+    padding: 0 20px;
+    gap: 15px;
+  }
+
+  .destination {
+    padding: 0 20px;
+  }
+
+  /* level section */
+
+  .level-box1,
+  .level-box2,
+  .level-box3,
+  .level-box4 {
+    height: 300px;
+    width: 300px;
+  }
+
+  .level-name h3 {
+    font-size: 28px;
+  }
+
+  /* adventure section */
+
+  .adventures-deals {
+    padding: 32px 20px 0;
+    gap: 20px;
+  }
+
+  .adventures-deal-box {
+    font-size: 12px;
+  }
+
+  .adventure-deal-wrap {
+    padding: 0 20px 15px;
+  }
+
+  /* aim section */
+
+  .aim-box {
+    width: 280px;
+  }
+
+  /* footer section */
+
+  .footer-div1,
+  .footer-div3 {
+    width: 300px;
+  }
+}
+
+@media (max-width: 350px) {
+
+  /* navbar */
+
+  .navbar {
+    padding: 6px 10px;
+  }
+
+  /* home section */
+
+  .main-heading h1 {
+    font-size: 35px;
+  }
+
+  /* level section */
+
+  .level-box1,
+  .level-box2,
+  .level-box3,
+  .level-box4 {
+    height: 260px;
+    width: 260px;
+  }
+
+  .level-text {
+    width: 280px;
+  }
+
+  /* review section */
+
+  .rating-content {
+    width: 280px;
+  }
+
+  /* footer section */
+
+  .footer-div1,
+  .footer-div3 {
+    width: 280px;
+  }
 }
