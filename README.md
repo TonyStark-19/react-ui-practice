@@ -41,13 +41,13 @@ I built this project as a way to **practice React.js** concepts, especially focu
 1⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/TonyStark-19/filterable-product-table.git
+git clone https://github.com/TonyStark-19/react-ui-practice.git
 ```
 
 2⃣ Navigate to the project directory:
 
 ```bash
-cd muchbetteradventures-clone
+cd react-ui-practice
 ```
 
 3⃣ Install dependencies:
