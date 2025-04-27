@@ -4,7 +4,7 @@ import './App.css';
 // react icons
 import { FiMenu } from "react-icons/fi";
 import { IoIosGlobe, IoIosStar } from "react-icons/io";
-import { FaRegUser, FaSearch, FaStar } from "react-icons/fa";
+import { FaRegUser, FaSearch, FaStar, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import { LuMountainSnow } from "react-icons/lu";
 
 // main page 
@@ -292,7 +292,8 @@ function Reviews() {
 
       <div className='rating-content'>
         <h2>Tried & trusted</h2>
-        <p>Much Better Adventures is rated <strong>'Excellent'</strong> on Trustpilot with over 1000 verified trip reviews averaging 4.8/5.</p>
+        <p>Much Better Adventures is rated <strong>'Excellent'</strong> on Trustpilot with
+          over 1000 verified trip reviews averaging 4.8/5.</p>
         <button className='rating-btn'>See our Trustpilot Reviews</button>
       </div>
 
@@ -870,7 +871,11 @@ function Footer() {
             Registration Number 06916506 (England and Wales)</p>
         </div>
 
-        <div className='footer-div4-2'></div>
+        <div className='footer-div4-2'>
+          <div className='footer-div4-2-icon'><FaFacebook className='div4-2-icon' /></div>
+          <div className='footer-div4-2-icon'><FaTwitter className='div4-2-icon' /></div>
+          <div className='footer-div4-2-icon'><FaInstagram className='div4-2-icon' /></div>
+        </div>
       </div>
 
     </div>
