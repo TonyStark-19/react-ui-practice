@@ -1,43 +1,61 @@
-# Much Better Adventures - Home Page Clone
+# 🌍 Much Better Adventures - Home Page Clone
 
-This project is a **clone** of the Much Better Adventures homepage, created to practice and strengthen my **React.js** skills, particularly around building and using **components**.
-
----
-
-## 📸 Screenshot
-
-![Screenshot](./public/images/image.png)
+This project is a **clone** of the [Much Better Adventures](https://www.muchbetteradventures.com/) **homepage**, created to enhance my **React.js** development skills — especially in building **reusable components**, managing layouts, and creating **responsive** UIs.
 
 ---
 
-## 🚀 Live Demo
+## 📸 Screenshots
 
-Check out the live version of the project here: [React-UI-practice](https://react-ui-practice-nine.vercel.app/)
+| Preview 1 | Preview 2 |
+|------------|------------|
+| ![Screenshot 1](./public/images/image1.png) | ![Screenshot 2](./public/images/image2.png) |
 
----
-
-## 🚀 Tech Stack
-- **React.js**
-- **CSS**
-- **React Icons**
-
----
-
-## 🎯 Features
-- Fully responsive design
-- Use of reusable React components
-- Modern and clean UI
-- Integrated **React Icons** for a more appealing look
+| Preview 3 | Preview 4 |
+|------------|------------|
+| ![Screenshot 3](./public/images/image3.png) | ![Screenshot 4](./public/images/image4.png) |
 
 ---
 
-## 📚 Why I Built This
-I built this project as a way to **practice React.js** concepts, especially focusing on **breaking the UI into components** and making the page **responsive** using CSS.
+## 🌐 Live Demo
+
+Check out the live version here:  
+👉 **[React-UI-Practice Live Demo](https://react-ui-practice-nine.vercel.app/)**  
+
+Official Website:  
+🌎 **[Much Better Adventures](https://www.muchbetteradventures.com/)**  
 
 ---
 
-## 🛠️ Installation and Setup
+## ⚙️ Tech Stack
 
+- ⚛️ **React.js** – Component-based UI development  
+- 🎨 **CSS** – Responsive and modern design  
+- 🔣 **React Icons** – For clean and expressive visuals  
+
+---
+
+## ✨ Features
+
+✅ Fully responsive and mobile-friendly design  
+✅ Reusable and modular React components  
+✅ Clean and modern UI layout  
+✅ Integration of **React Icons** for enhanced aesthetics  
+
+---
+
+## 💡 Why I Built This
+
+I created this project to **practice React.js concepts** and strengthen my front-end development skills.  
+The main goals were:
+- Understanding **component-based architecture**
+- Improving **layout and styling** with CSS
+- Learning how to **structure and organize** a React project efficiently
+
+---
+
+## 🛠️ Installation & Setup
+
+Follow these steps to run the project locally:
 1⃣ Clone the repository:
 
 ```bash
@@ -61,8 +79,6 @@ npm install
 ```bash
 npm start
 ```
-
-The app will be running on `http://localhost:3000`
 
 ---
 
