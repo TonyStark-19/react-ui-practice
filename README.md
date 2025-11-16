@@ -36,10 +36,11 @@ Official Website:
 
 ## ✨ Features
 
-✅ Fully responsive and mobile-friendly design  
-✅ Reusable and modular React components  
-✅ Clean and modern UI layout  
-✅ Integration of **React Icons** for enhanced aesthetics  
+- 📱 Fully responsive across all screen sizes
+- ♻️ Reusable & modular React components
+- 🎯 Clean layout inspired by real-world UI design
+- 🔧 Well-structured folder and component organization
+- 🎨 Smooth and modern UI powered by plain CSS
 
 ---
 
@@ -56,25 +57,26 @@ The main goals were:
 ## 🛠️ Installation & Setup
 
 Follow these steps to run the project locally:
-1⃣ Clone the repository:
+
+1️⃣ Clone the repository:
 
 ```bash
 git clone https://github.com/TonyStark-19/react-ui-practice.git
 ```
 
-2⃣ Navigate to the project directory:
+2️⃣ Navigate into the project folder:
 
 ```bash
 cd react-ui-practice
 ```
 
-3⃣ Install dependencies:
+3️⃣ Install dependencies:
 
 ```bash
 npm install
 ```
 
-4⃣ Run the development server:
+4️⃣ Start the development server:
 
 ```bash
 npm start
@@ -84,4 +86,9 @@ npm start
 
 ## 📩 Feedback
 
-If you have any suggestions or feedback, feel free to reach out! 🚀
+Got feedback, suggestions, or ideas to improve the UI? <br />
+Feel free to open an issue or reach out. Always happy to learn and collaborate! 🚀
+
+---
+
+💡 Built with ❤️ by Aditya chandel
