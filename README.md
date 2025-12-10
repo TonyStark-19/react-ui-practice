@@ -6,11 +6,11 @@ This project is a **clone** of the [Much Better Adventures](https://www.muchbett
 
 ## 📸 Screenshots
 
-| Preview 1 | Preview 2 |
+| 🏠 Home Section | 🎚️ Levels Section |
 |------------|------------|
 | ![Screenshot 1](./public/images/image1.png) | ![Screenshot 2](./public/images/image2.png) |
 
-| Preview 3 | Preview 4 |
+|ℹ️ Info Section | 🧩 Footer Section |
 |------------|------------|
 | ![Screenshot 3](./public/images/image3.png) | ![Screenshot 4](./public/images/image4.png) |
 
