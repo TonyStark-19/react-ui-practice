@@ -107,8 +107,15 @@ body {
   text-transform: uppercase;
 }
 
-.below-navbar h6 a {
+.below-navbar h6 button {
   color: #ffffff;
+  background: transparent;
+  outline: none;
+  border: none;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 /* content container */
