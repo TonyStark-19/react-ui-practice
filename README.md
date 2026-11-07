@@ -8,39 +8,45 @@ This project is a **clone** of the [Much Better Adventures](https://www.muchbett
 
 | 🏠 Home Section | 🎚️ Levels Section |
 |------------|------------|
-| ![Screenshot 1](./public/images/image1.png) | ![Screenshot 2](./public/images/image2.png) |
+| ![Screenshot 1](./public/previews/image1.png) | ![Screenshot 2](./public/previews/image2.png) |
 
 |ℹ️ Info Section | 🧩 Footer Section |
 |------------|------------|
-| ![Screenshot 3](./public/images/image3.png) | ![Screenshot 4](./public/images/image4.png) |
+| ![Screenshot 3](./public/previews/image3.png) | ![Screenshot 4](./public/previews/image4.png) |
 
 ---
 
 ## 🌐 Live Demo
 
-Check out the live version here:  
-👉 **[React-UI-Practice Live Demo](https://react-ui-practice-nine.vercel.app/)**  
+Check out the live version here:
 
-Official Website:  
-🌎 **[Much Better Adventures](https://www.muchbetteradventures.com/)**  
+👉 **[React-UI-Practice Live Demo](https://react-ui-practice-nine.vercel.app/)**
+
+Official Website:
+
+🌎 **[Much Better Adventures](https://www.muchbetteradventures.com/)**
 
 ---
 
 ## ⚙️ Tech Stack
 
-- ⚛️ **React.js** – Component-based UI development  
-- 🎨 **CSS** – Responsive and modern design  
-- 🔣 **React Icons** – For clean and expressive visuals  
+| Technology | Purpose |
+|:---|:---|
+| **React.js** | Enables component-based UI development using reusable components. |
+| **CSS3** | Handles styling, responsive layouts, and modern visual design. |
+| **React Icons** | Provides clean and expressive icons throughout the interface. |
 
 ---
 
 ## ✨ Features
 
-- 📱 Fully responsive across all screen sizes
-- ♻️ Reusable & modular React components
-- 🎯 Clean layout inspired by real-world UI design
-- 🔧 Well-structured folder and component organization
-- 🎨 Smooth and modern UI powered by plain CSS
+| Feature | Description |
+|:---|:---|
+| **Fully Responsive Design** | Adapts seamlessly to different screen sizes and devices. |
+| **Reusable & Modular Components** | Uses reusable React components for maintainable and organized code. |
+| **Real-World UI Inspiration** | Features a clean layout inspired by modern website design. |
+| **Structured Code Organization** | Follows a well-organized folder structure and component architecture. |
+| **Modern UI Design** | Uses plain CSS to create a smooth, clean, and visually appealing interface. |
 
 ---
 
