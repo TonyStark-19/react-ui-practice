@@ -16,14 +16,12 @@ body {
 }
 
 /* container */
-
 .container {
   height: 100vh;
   width: 100%;
 }
 
 /* navbar */
-
 .navbar {
   display: flex;
   flex-direction: row;
@@ -39,7 +37,6 @@ body {
 }
 
 /* head */
-
 .head {
   display: flex;
   flex-direction: row;
@@ -49,20 +46,17 @@ body {
 }
 
 /* menu icon */
-
 .head .menu-icon {
   font-size: 25px;
 }
 
 /* logo */
-
 .head img {
   width: 175px;
   height: 36px;
 }
 
 /* other links */
-
 .links {
   display: flex;
   flex-direction: row;
@@ -80,7 +74,6 @@ body {
 }
 
 /* below navbar */
-
 .below-navbar {
   display: flex;
   justify-content: center;
@@ -119,7 +112,6 @@ body {
 }
 
 /* content container */
-
 .content-container {
   position: relative;
   z-index: 1;
@@ -127,7 +119,6 @@ body {
 }
 
 /* video background */
-
 .video-background {
   position: absolute;
   top: 0;
@@ -145,7 +136,6 @@ body {
 }
 
 /* text content */
-
 .text-content {
   position: relative;
   z-index: 2;
@@ -157,7 +147,6 @@ body {
 }
 
 /* rating div */
-
 .rating {
   display: flex;
   flex-direction: row;
@@ -172,7 +161,6 @@ body {
 }
 
 /* stars */
-
 .stars {
   display: flex;
   flex-direction: row;
@@ -181,7 +169,6 @@ body {
 }
 
 /* stars wrap */
-
 .stars .star-wrap {
   background-color: #00b67a;
   height: 20px;
@@ -192,13 +179,11 @@ body {
 }
 
 /* star icon */
-
 .star-wrap .star-icon {
   color: #ffffff;
 }
 
 /* div after rationg */
-
 .rating-o {
   display: flex;
   flex-direction: row;
@@ -216,7 +201,6 @@ body {
 }
 
 /* main heading */
-
 .main-heading h1 {
   font-size: 48px;
   margin: 0 0 10px;
@@ -224,7 +208,6 @@ body {
 }
 
 /* sub heading */
-
 .sub-heading h4 {
   font-size: 16px;
   margin: 0 0 24px;
@@ -232,7 +215,6 @@ body {
 }
 
 /* content button */
-
 .content-btn {
   padding: 6px 16px;
   background-color: #98be42;
@@ -253,7 +235,6 @@ body {
 }
 
 /* adventures */
-
 .adventures {
   position: relative;
   z-index: 2;
@@ -261,7 +242,6 @@ body {
 }
 
 /* adventure option */
-
 .adventures-options {
   display: flex;
   flex-direction: row;
@@ -270,7 +250,6 @@ body {
 }
 
 /* adventure option box */
-
 .adventures-option-box {
   font-size: 12px;
   text-transform: uppercase;
@@ -289,7 +268,6 @@ body {
 }
 
 /* destination */
-
 .destination-wrap {
   display: flex;
   flex-direction: row;
@@ -313,7 +291,6 @@ body {
 }
 
 /* destination box */
-
 .destination-box1,
 .destination-box2,
 .destination-box3,
@@ -332,7 +309,6 @@ body {
 }
 
 /* images for each destination */
-
 .destination-box1 {
   background-image: url(/public/images/adventure-img/destination1.webp);
 }
@@ -362,7 +338,6 @@ body {
 }
 
 /* destination name */
-
 .destination-name {
   padding: 16px;
   font-size: 12px;
@@ -374,13 +349,11 @@ body {
 }
 
 /* level container */
-
 .level-container {
   padding: 72px 0 40px;
 }
 
 /* level content */
-
 .level-content {
   display: flex;
   flex-direction: row;
@@ -390,14 +363,12 @@ body {
 }
 
 /* level image */
-
 .level-img {
   height: 200px;
   width: 200px;
 }
 
 /* level text */
-
 .level-text {
   display: flex;
   flex-direction: column;
@@ -418,7 +389,6 @@ body {
 }
 
 /* level box wrap */
-
 .level-box-wrap {
   display: flex;
   flex-direction: row;
@@ -430,7 +400,6 @@ body {
 }
 
 /* level boxes */
-
 .level-box1,
 .level-box2,
 .level-box3,
@@ -449,7 +418,6 @@ body {
 }
 
 /* images for each level box */
-
 .level-box1 {
   background-image: url(/public/images/level-images/level1.webp);
 }
@@ -467,7 +435,6 @@ body {
 }
 
 /* level name */
-
 .level-name {
   position: absolute;
   display: flex;
@@ -484,7 +451,6 @@ body {
 }
 
 /* level icon */
-
 .level-box1 .level-icon,
 .level-box2 .level-icon,
 .level-box3 .level-icon,
@@ -532,7 +498,6 @@ body {
 }
 
 /* review container */
-
 .review-container {
   padding: 72px 0 40px;
   display: flex;
@@ -544,7 +509,6 @@ body {
 }
 
 /* rating */
-
 .rating-div2 {
   display: flex;
   flex-direction: column;
@@ -552,7 +516,6 @@ body {
 }
 
 /* rating div 1 */
-
 .rating-a {
   display: flex;
   flex-direction: row;
@@ -570,7 +533,6 @@ body {
 }
 
 /* rating div 2 */
-
 .rating-b {
   display: flex;
   flex-direction: row;
@@ -592,7 +554,6 @@ body {
 }
 
 /* rating content */
-
 .rating-content {
   width: 500px;
 }
@@ -605,7 +566,6 @@ body {
 }
 
 /* rating button */
-
 .rating-btn {
   padding: 5px 15px;
   height: 46px;
@@ -624,7 +584,6 @@ body {
 }
 
 /* adventures container */
-
 .adventures-container {
   display: flex;
   flex-direction: column;
@@ -632,7 +591,6 @@ body {
 }
 
 /* adventure deals */
-
 .adventures-deals {
   display: flex;
   flex-direction: row;
@@ -641,7 +599,6 @@ body {
 }
 
 /* adventure deal box */
-
 .adventures-deal-box {
   font-size: 13px;
   text-transform: uppercase;
@@ -660,7 +617,6 @@ body {
 }
 
 /* adventure deal wrap */
-
 .adventure-deal-wrap {
   display: flex;
   flex-direction: row;
@@ -678,7 +634,6 @@ body {
 }
 
 /* adventure deal boxes */
-
 .adventure-deal-box-div1,
 .adventure-deal-box-div2,
 .adventure-deal-box-div3,
@@ -697,7 +652,6 @@ body {
 }
 
 /* adventure deal image box */
-
 .adventure-deal-img-box {
   background-size: cover;
   background-position: center;
@@ -708,7 +662,6 @@ body {
 }
 
 /* images for each adventure deal boxes */
-
 .adventure-deal-box-div1 .adventure-deal-img-box {
   background-image: url(/public/images/deal-img/deal1.webp);
 }
@@ -746,7 +699,6 @@ body {
 }
 
 /* adventure deal level */
-
 .adventure-deal-level {
   padding: 4px 8px;
   background-color: #2a2d2ccc;
@@ -772,7 +724,6 @@ body {
 }
 
 /* adventure deal level icon */
-
 .adventure-deal-level-icon {
   display: flex;
   flex-direction: row;
@@ -839,7 +790,6 @@ body {
 }
 
 /* adventure deal info 1 */
-
 .adventure-deal-info1 {
   display: flex;
   flex-direction: row;
@@ -860,7 +810,6 @@ body {
 }
 
 /* adventure deal info 2 */
-
 .adventure-deal-info2 {
   margin: 8px 0 0;
   color: #ffffff;
@@ -872,7 +821,6 @@ body {
 }
 
 /* adventure deal info 3 */
-
 .adventure-deal-info3 {
   display: flex;
   flex-direction: row;
@@ -891,7 +839,6 @@ body {
 }
 
 /* collage container */
-
 .collage-container {
   padding: 56px 62px;
   background-color: #f4f4f4;
@@ -902,7 +849,6 @@ body {
 }
 
 /* collage 1  */
-
 .collage-1 {
   background-image: url(/public/images/collage/collage1.webp);
   background-position: center;
@@ -957,7 +903,6 @@ body {
 }
 
 /* collage 2 */
-
 .collage-2 {
   width: 50%;
   height: 720px;
@@ -967,7 +912,6 @@ body {
 }
 
 /* colage 2 image boxes */
-
 .collage-2-img-1,
 .collage-2-img-2,
 .collage-2-img-3,
@@ -1026,7 +970,6 @@ body {
 }
 
 /* aim container */
-
 .aim-container {
   display: flex;
   flex-direction: row;
@@ -1035,7 +978,6 @@ body {
 }
 
 /* aim box */
-
 .aim-box {
   display: flex;
   flex-direction: column;
@@ -1067,7 +1009,6 @@ body {
 }
 
 /* purpose container */
-
 .purpose-container {
   display: flex;
   justify-content: center;
@@ -1090,7 +1031,6 @@ body {
 }
 
 /* footer container */
-
 .footer-container {
   padding: 80px 30px 48px;
   background-color: #2a2d2c;
@@ -1100,14 +1040,12 @@ body {
 }
 
 /* footer wrap */
-
 .footer-wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 /* footer div1 */
-
 .footer-div1 {
   display: flex;
   flex-direction: column;
@@ -1127,7 +1065,6 @@ body {
 }
 
 /* footer div 1 images */
-
 .footer-div1-images {
   display: flex;
   flex-direction: row;
@@ -1148,7 +1085,6 @@ body {
 }
 
 /* footer div2 */
-
 .footer-div2 {
   display: flex;
   flex-direction: row;
@@ -1157,7 +1093,6 @@ body {
 }
 
 /* footer div2 list1 */
-
 .footer-div2-list {
   display: flex;
   flex-direction: column;
@@ -1174,7 +1109,6 @@ body {
 }
 
 /* list1 links wrap */
-
 .list-links-wrap {
   display: flex;
   flex-direction: column;
@@ -1182,7 +1116,6 @@ body {
 }
 
 /* list links */
-
 .list-links {
   font-size: 15px;
   color: #ffffff;
@@ -1194,7 +1127,6 @@ body {
 }
 
 /* list btn */
-
 .list-btn {
   padding: 5px 15px;
   font-size: 16px;
@@ -1212,7 +1144,6 @@ body {
 }
 
 /* footer div3 */
-
 .footer-div3 {
   display: flex;
   flex-direction: column;
@@ -1225,7 +1156,6 @@ body {
 }
 
 /* footer div3 wrap */
-
 .footer-div3-wrap {
   display: flex;
   flex-direction: row;
@@ -1240,7 +1170,6 @@ body {
 }
 
 /* footer div3 text */
-
 .footer-div3-text {
   display: flex;
   flex-direction: column;
@@ -1260,7 +1189,6 @@ body {
 }
 
 /* footer div4 */
-
 .footer-div4 {
   display: flex;
   flex-direction: row;
@@ -1288,7 +1216,6 @@ body {
 }
 
 /* footer div4 2 */
-
 .footer-div4-2 {
   display: flex;
   flex-direction: row;
@@ -1297,7 +1224,6 @@ body {
 }
 
 /* footer div4 2 icon */
-
 .footer-div4-2-icon {
   height: 55px;
   width: 55px;
@@ -1320,18 +1246,15 @@ body {
 }
 
 /* responsiveness */
-
 @media (max-width: 1250px) {
 
   /* home section */
-
   .destination-wrap,
   .adventures {
     padding: 0;
   }
 
   /* level section */
-
   .level-box-wrap {
     padding: 0 32px;
   }
@@ -1345,7 +1268,6 @@ body {
   }
 
   /* adventure section */
-
   .adventures-deals {
     padding: 32px 32px 0;
   }
@@ -1355,7 +1277,6 @@ body {
   }
 
   /* collage section */
-
   .collage-container {
     padding: 56px 32px;
   }
@@ -1382,7 +1303,6 @@ body {
 @media (max-width: 1150px) {
 
   /* collage section */
-
   .collage-container {
     padding: 56px 32px;
   }
@@ -1404,13 +1324,11 @@ body {
 @media (max-width: 1100px) {
 
   /* level section */
-
   .level-box-wrap {
     flex-wrap: wrap;
   }
 
   /* collage section */
-
   .collage-container {
     padding: 40px 32px;
     flex-direction: column;
@@ -1433,7 +1351,6 @@ body {
   }
 
   /* footer section */
-
   .footer-wrap {
     grid-template-columns: 1fr;
     grid-gap: 40px;
@@ -1447,7 +1364,6 @@ body {
 @media (max-width: 1000px) {
 
   /* level section */
-
   .level-box1,
   .level-box2,
   .level-box3,
@@ -1457,13 +1373,11 @@ body {
   }
 
   /* aim section */
-
   .aim-container {
     gap: 10px;
   }
 
   /* footer section */
-
   .footer-div4,
   .footer-div4-1 {
     flex-direction: column;
@@ -1479,7 +1393,6 @@ body {
 @media (max-width: 900px) {
 
   /* aim section */
-
   .aim-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1494,7 +1407,6 @@ body {
 @media (max-width: 800px) {
 
   /* level section */
-
   .level-box1,
   .level-box2,
   .level-box3,
@@ -1504,7 +1416,6 @@ body {
   }
 
   /* review section */
-
   .review-container {
     flex-direction: column;
   }
@@ -1528,7 +1439,6 @@ body {
 @media (max-width: 750px) {
 
   /* level section */
-
   .level-container {
     padding: 40px 0;
   }
@@ -1553,7 +1463,6 @@ body {
   }
 
   /* collage section */
-
   .collage-container {
     padding: 40px 20px;
   }
@@ -1571,7 +1480,6 @@ body {
   }
 
   /* aim section */
-
   .aim-container {
     padding: 0 20px 30px;
   }
@@ -1581,7 +1489,6 @@ body {
   }
 
   /* purpose section */
-
   .purpose-container p {
     width: 600px;
     text-align: center;
@@ -1591,7 +1498,6 @@ body {
 @media (max-width: 700px) {
 
   /* level section */
-
   .level-box1,
   .level-box2,
   .level-box3,
@@ -1603,7 +1509,6 @@ body {
 @media (max-width: 650px) {
 
   /* collage section */
-
   .collage-1,
   .collage-2 {
     height: 400px;
@@ -1617,13 +1522,11 @@ body {
   }
 
   /* aim section */
-
   .aim-box {
     width: 250px;
   }
 
   /* purpose section */
-
   .purpose-container {
     height: 150px;
   }
@@ -1638,7 +1541,6 @@ body {
 @media (max-width: 600px) {
 
   /* footer section */
-
   .footer-div2 {
     flex-direction: column;
   }
@@ -1652,19 +1554,16 @@ body {
 @media (max-width: 550px) {
 
   /* level section */
-
   .level-text {
     width: 430px;
   }
 
   /* review section */
-
   .rating-content {
     width: 430px;
   }
 
   /* collage section */
-
   .collage-1 {
     height: 400px;
   }
@@ -1702,7 +1601,6 @@ body {
   }
 
   /* aim section */
-
   .aim-container {
     display: flex;
     flex-direction: column;
@@ -1716,7 +1614,6 @@ body {
   }
 
   /* footer section */
-
   .footer-container {
     padding: 30px 20px;
   }
@@ -1730,7 +1627,6 @@ body {
 @media (max-width: 450px) {
 
   /* navbar */
-
   .navbar {
     padding: 6px 20px;
   }
@@ -1749,7 +1645,6 @@ body {
   }
 
   /* home section */
-
   .text-content {
     padding: 200px 5px 56px;
   }
@@ -1786,19 +1681,16 @@ body {
   }
 
   /* level section */
-
   .level-text {
     width: 330px;
   }
 
   /* review section */
-
   .rating-content {
     width: 330px;
   }
 
   /* collage section */
-
   .collage-1 {
     height: 300px;
   }
@@ -1834,20 +1726,17 @@ body {
   }
 
   /* aim section */
-
   .aim-box {
     width: 300px;
   }
 
   /* purpose section */
-
   .purpose-container p {
     font-size: 20px;
     width: 300px;
   }
 
   /* footer section */
-
   .footer-div1,
   .footer-div3 {
     width: 350px;
@@ -1857,7 +1746,6 @@ body {
 @media (max-width: 400px) {
 
   /* home section */
-
   .adventures-options {
     padding: 0 20px;
     gap: 15px;
@@ -1868,7 +1756,6 @@ body {
   }
 
   /* level section */
-
   .level-box1,
   .level-box2,
   .level-box3,
@@ -1881,7 +1768,6 @@ body {
   }
 
   /* adventure section */
-
   .adventures-deals {
     padding: 32px 20px 0;
     gap: 20px;
@@ -1896,13 +1782,11 @@ body {
   }
 
   /* aim section */
-
   .aim-box {
     width: 280px;
   }
 
   /* footer section */
-
   .footer-div1,
   .footer-div3 {
     width: 300px;
@@ -1912,19 +1796,16 @@ body {
 @media (max-width: 350px) {
 
   /* navbar */
-
   .navbar {
     padding: 6px 10px;
   }
 
   /* home section */
-
   .main-heading h1 {
     font-size: 35px;
   }
 
   /* level section */
-
   .level-box1,
   .level-box2,
   .level-box3,
@@ -1937,13 +1818,11 @@ body {
   }
 
   /* review section */
-
   .rating-content {
     width: 280px;
   }
 
   /* footer section */
-
   .footer-div1,
   .footer-div3 {
     width: 280px;
